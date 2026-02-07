@@ -1,0 +1,1677 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "yobe-1.20.1",
+      "name": "요베베 (Minecraft 1.20.1)",
+      "description": "yobe Running Minecraft 1.20.1 (Forge v47.4.16)",
+      "icon": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/Icon.png",
+      "version": "1.0.0",
+      "address": "donthatefurry.com:35409",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.16",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7393,
+            "MD5": "eef5a959280fbbbfcaa20e71a1f21f47",
+            "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.16/lowcodelanguage-1.20.1-47.4.16.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.16",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16559,
+                "MD5": "0209821dfee7da8866d879bae8a48c45",
+                "url": "https://hanol0927.github.io/yobe/repo/versions/1.20.1-forge-47.4.16/1.20.1-forge-47.4.16.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.16",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118907,
+                "MD5": "a3c587d8de59520103fffa5d389a37e0",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.16/fmlcore-1.20.1-47.4.16.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.16",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16849,
+                "MD5": "8621fbf34f936765341b673b6cd766d4",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.16/javafmllanguage-1.20.1-47.4.16.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.16",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4993,
+                "MD5": "04824559b568359bc1f13e7747c92102",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.16/mclanguage-1.20.1-47.4.16.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.16:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2507137,
+                "MD5": "4f50127e5e1c8a73a48efc1564cf0998",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/forge/1.20.1-47.4.16/forge-1.20.1-47.4.16-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.16:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848917,
+                "MD5": "a653895344f94e59c864480cda1031d1",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/forge/1.20.1-47.4.16/forge-1.20.1-47.4.16-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.2.33",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 64014,
+                "MD5": "0b419ea48f46de30ee4e6241e4fdf9d4",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.16",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 269260,
+                "MD5": "5f1fcafc3cd40bbac360316491d8acc7",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.16/fmlloader-1.20.1-47.4.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.16",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170511,
+                "MD5": "b41388809b3ecd36f3f607116bf6d6ec",
+                "url": "https://hanol0927.github.io/yobe/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.16/fmlearlydisplay-1.20.1-47.4.16.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "team.creative:ambientsounds:6.3.4@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 53428834,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.3.4_mc1.20.1.jar",
+            "MD5": "cde6b48177d3581634514e848cde2622"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "io.github.kosmx:bendylib:4.0.0@jar",
+          "name": "Bendy lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 50745,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/bendy-lib-forge-4.0.0.jar",
+            "MD5": "4f270cbc45ac11b6747c90ce2ca1b89a"
+          }
+        },
+        {
+          "id": "com.betterfpsdist:betterfpsdist:1.20.1-6.0@jar",
+          "name": "Betterfpsdist mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19917,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/betterfpsdist-1.20.1-6.0.jar",
+            "MD5": "34280e25bfb67f8ce08157129c8cb09d"
+          }
+        },
+        {
+          "id": "de.maxhenkel:camera:1.20.1-1.0.20@jar",
+          "name": "Camera Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 299726,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/camera-forge-1.20.1-1.0.20.jar",
+            "MD5": "7f707898d1ed0753a5a5043cbdf806a8"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre36@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2613393,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
+            "MD5": "faf78627dad9c9c04e7a4fa8992c54dc"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.14.2@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 718678,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/chat_heads-0.14.2-forge-1.20.jar",
+            "MD5": "90c7b2c8dd6b9001528c5d741152b784"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "com.axperty:cratedelight:25.09.22-1.20-forge@jar",
+          "name": "Crate Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 161081,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/cratedelight-25.09.22-1.20-forge.jar",
+            "MD5": "f1905ba0655f68ac64036177a8c45466"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.12.32@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1158417,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+            "MD5": "7aabe100af362d0df92d8ea1dbc2667b"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-2.7@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25983,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/cupboard-1.20.1-2.7.jar",
+            "MD5": "3620912474f47bf58d1fe5bfe133763a"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl:dynamic_fps:3.11.4@jar",
+          "name": "Dynamic FPS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 402345,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar",
+            "MD5": "f8df69d0af455b6f47acb88ab747d1a3"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+          "name": "Emotecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 680255,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+            "MD5": "636c62379cd7c5201a70fd457808e331"
+          }
+        },
+        {
+          "id": "fr.rakambda:fallingtree:4.3.4@jar",
+          "name": "FallingTree",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 420179,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/FallingTree-1.20.1-4.3.4.jar",
+            "MD5": "e9282de446320895a7835ce9efc6d3b7"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.9@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2978080,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.9.jar",
+            "MD5": "71e177a98e0e6f399761ad00e978d177"
+          }
+        },
+        {
+          "id": "com.farsight:farsight_view:1.20.1-4.5@jar",
+          "name": "Farsight mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 441356,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/farsight-1.20.1-4.5.jar",
+            "MD5": "92abe14e6a34c2b93e0074c0583cd25c"
+          }
+        },
+        {
+          "id": "dev.obscuria:fragmentum:0.6.9@jar",
+          "name": "Fragmentum",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1678046,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/fragmentum-forge-1.20.1-0.6.9.jar",
+            "MD5": "f499ad8ee8369d609b83caf4297d9ede"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:framework:0.7.15@jar",
+          "name": "Framework",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 309560,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/framework-forge-1.20.1-0.7.15.jar",
+            "MD5": "135716c910b1036a6dd2f0fe0bc7b03d"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.8.2@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1038979,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.2.jar",
+            "MD5": "d1ff73da16b6fc163d6c5ed3d9734dde"
+          }
+        },
+        {
+          "id": "de.bene2212:holdmyitems:2.0@jar",
+          "name": "HoldMyItems - Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 330100,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/holdmyitems-1.20.1v2.1.jar",
+            "MD5": "49e4a479951c50540f4dcef56f26126b"
+          }
+        },
+        {
+          "id": "net.raphimc:immediatelyfast:1.5.4+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 538992,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+            "MD5": "8fb21bb328cc322c6d9749eff087509f"
+          }
+        },
+        {
+          "id": "net.lopymine.ipi.entrypoint:inventory_interactions:1.0.0+1.20.1+forge@jar",
+          "name": "Inventory Interactions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552598,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/InventoryInteractions-1.0.0+1.20.1+forge.jar",
+            "MD5": "70a5a48b446cac8e7aa953f4b9ae848a"
+          }
+        },
+        {
+          "id": "net.lopymine.ip.entrypoint:inventory_particles:1.3.2+1.20.1+forge@jar",
+          "name": "Inventory Particles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1702583,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/InventoryParticles-1.3.2+1.20.1+forge.jar",
+            "MD5": "621bceafe118a929dbbd43ec5832cdf5"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552486,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.2.jar",
+            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.112@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1385600,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.112.jar",
+            "MD5": "c899d5b549ace1e9fa46700c778c3809"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7160405,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/journeymap-1.20.1-5.10.3-forge.jar",
+            "MD5": "2181bd6b7161f06726560b9382235611"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan.koreanpatch.client:koreanpatch:1.9.0+mc1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 315488,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/koreanpatch-forge-1.9.0+mc1.20.1.jar",
+            "MD5": "dc6a73dcbec683185bd2e3c87ad8fb17"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.12.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7442998,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/kotlinforforge-4.12.0-all.jar",
+            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
+          }
+        },
+        {
+          "id": "com.finndog:mes:1.4.6-1.20-forge@jar",
+          "name": "Moog's End Structures",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1140667,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/mes-1.4.6-1.20.jar",
+            "MD5": "7ed4ed710c12c6dffe5ea976d08ec406"
+          }
+        },
+        {
+          "id": "net.lopymine.mossylib.entrypoint:mossylib:1.1.0+1.20.1+forge@jar",
+          "name": "MossyLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 372774,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/MossyLib-1.1.0+1.20.1+forge.jar",
+            "MD5": "a3c3f2f534b0080c2dcc48379bdd28c3"
+          }
+        },
+        {
+          "id": "dev.obscuria.tooltips:obscure_tooltips:3.3.1@jar",
+          "name": "Obscure Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 856459,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/obscure_tooltips-forge-1.20.1-3.3.1.jar",
+            "MD5": "bcc2c2c35578a849286f200204016b69"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.15a@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2806358,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/oculus-mc1.20.1-1.6.15a.jar",
+            "MD5": "b6d1e02b5fccf72570fa19606006d711"
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.20.1-84.1-FORGE@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 642711,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/Patchouli-1.20.1-84.1-FORGE.jar",
+            "MD5": "d5154cacf6859582eebd853bd59f5537"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture.refurbished:refurbished_furniture:1.0.20@jar",
+          "name": "MrCrayfish's Furniture Mod: Refurbished",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6689588,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/refurbished_furniture-forge-1.20.1-1.0.20.jar",
+            "MD5": "53bf35be2dc746e3fd7805a4e63a46a6"
+          }
+        },
+        {
+          "id": "com.abdelaziz:saturn:0.1.3@jar",
+          "name": "Saturn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 92319,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/saturn-mc1.20.1-0.1.3.jar",
+            "MD5": "56a9a1cc126425b04acc5f8bd7ed67f1"
+          }
+        },
+        {
+          "id": "com.abdelaziz:smoothboot:0.0.4@jar",
+          "name": "Smooth Boot (Reloaded)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 41044,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+            "MD5": "c8cd5ae14d99796fd92c95a353e96211"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:3.0.1.10@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 107532,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+            "MD5": "9d8e305b95ae5a8f7b446d6346324267"
+          }
+        },
+        {
+          "id": "com.lion:graveyard:3.1@jar",
+          "name": "The Graveyard",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10298153,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar",
+            "MD5": "7a27b8747306bdee0857b50e11a9850e"
+          }
+        },
+        {
+          "id": "net.mcreator.twilightforestfinalboss:twilight_forest_final_boss:1.0.0@jar",
+          "name": "Twilight Forest Final Boss",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3204693,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/twilight_forest_final_boss-1.2.0-forge-1.20.1.jar",
+            "MD5": "e6b778c1e39a609e1ffb34cab51b3c16"
+          }
+        },
+        {
+          "id": "twilightforest:twilightforest:4.3.2508@jar",
+          "name": "The Twilight Forest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23332091,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/twilightforest-1.20.1-4.3.2508-universal.jar",
+            "MD5": "0e1ca36ec2ca7e35059dea1600aa31ee"
+          }
+        },
+        {
+          "id": "com.laidbacksloth:wso16:1.1@jar",
+          "name": "Why stacks of 16?",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 49186,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/wso16-forge-1.1.jar",
+            "MD5": "44b47ffde66d74d4eacc62c6e29af765"
+          }
+        },
+        {
+          "id": "de.cristelknight999:wwoo_forge:2.0.0@jar",
+          "name": "William Wythers Overhauled Overworld [FORGE]",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2172855,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/WWOO-FABRIC+FORGE+QUILT-2.0.0.jar",
+            "MD5": "edac266d810af52de52a4243c74e1a2b"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.6@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 370524,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/YungsApi-1.20-Forge-4.0.6.jar",
+            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterendisland:1.20-Forge-2.0.6@jar",
+          "name": "YUNG's Better End Island",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 387111,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+            "MD5": "7f5ed661e5478668a91ea199fba75fb3"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterfortresses:1.20-Forge-2.0.6@jar",
+          "name": "YUNG's Better Nether Fortresses",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 619255,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/forgemods/required/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+            "MD5": "8f0011690923efb6e2d59514181f0bc9"
+          }
+        },
+        {
+          "id": "appleskin-client.toml",
+          "name": "appleskin-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1361,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/appleskin-client.toml",
+            "MD5": "96c41ff44a443916b2a59da9feef9950",
+            "path": "config/appleskin-client.toml"
+          }
+        },
+        {
+          "id": "aquaculture-common.toml",
+          "name": "aquaculture-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 825,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/aquaculture-common.toml",
+            "MD5": "b81074cb98f1c58f87f580bbbc21fa47",
+            "path": "config/aquaculture-common.toml"
+          }
+        },
+        {
+          "id": "armourers_workshop-client.toml",
+          "name": "armourers_workshop-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4867,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/armourers_workshop-client.toml",
+            "MD5": "178b49e20a5e5397678fdb80b71df3a9",
+            "path": "config/armourers_workshop-client.toml"
+          }
+        },
+        {
+          "id": "armourers_workshop-common.toml",
+          "name": "armourers_workshop-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4211,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/armourers_workshop-common.toml",
+            "MD5": "454cf8ed536aa9699b3c2c4ac7d167d8",
+            "path": "config/armourers_workshop-common.toml"
+          }
+        },
+        {
+          "id": "betterendisland-forge-1_20.toml",
+          "name": "betterendisland-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 329,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/betterendisland-forge-1_20.toml",
+            "MD5": "6982ca5ed6d667bafcfd6d21f24a3b13",
+            "path": "config/betterendisland-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "itemframes.json",
+          "name": "itemframes.json",
+          "type": "File",
+          "artifact": {
+            "size": 901,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/betterfortresses/forge-1_20/itemframes.json",
+            "MD5": "4bcadd8470b2da6d0a33ba2a14fe4816",
+            "path": "config/betterfortresses/forge-1_20/itemframes.json"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1339,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/betterfortresses/forge-1_20/README.txt",
+            "MD5": "77f5c32923f20baf9ee380e7c1c24b1c",
+            "path": "config/betterfortresses/forge-1_20/README.txt"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 871,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/betterfortresses/README.txt",
+            "MD5": "eceef9412a301d8cac9d2c98b2a2256f",
+            "path": "config/betterfortresses/README.txt"
+          }
+        },
+        {
+          "id": "betterfortresses-forge-1_20.toml",
+          "name": "betterfortresses-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 468,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/betterfortresses-forge-1_20.toml",
+            "MD5": "7882d065dfd197ea7c6f644236548d53",
+            "path": "config/betterfortresses-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterfpsdist.json",
+          "name": "betterfpsdist.json",
+          "type": "File",
+          "artifact": {
+            "size": 697,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/betterfpsdist.json",
+            "MD5": "40c3a07479a3ca023b5c5bd604ee25c0",
+            "path": "config/betterfpsdist.json"
+          }
+        },
+        {
+          "id": "camera-client.toml",
+          "name": "camera-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 283,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/camera-client.toml",
+            "MD5": "71956bda8dbc40642cf44ef7e5d881e0",
+            "path": "config/camera-client.toml"
+          }
+        },
+        {
+          "id": "cfm-client.toml",
+          "name": "cfm-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 190,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/cfm-client.toml",
+            "MD5": "7fa57b2ec3af27c80b00b56b1fac740b",
+            "path": "config/cfm-client.toml"
+          }
+        },
+        {
+          "id": "cfm-common.toml",
+          "name": "cfm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 259,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/cfm-common.toml",
+            "MD5": "0d385a1ecf645dda802350ffe3cb4bc4",
+            "path": "config/cfm-common.toml"
+          }
+        },
+        {
+          "id": "chat_heads.json5",
+          "name": "chat_heads.json5",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/chat_heads.json5",
+            "MD5": "95907776cd681dd4b584741aa8cccdd2",
+            "path": "config/chat_heads.json5"
+          }
+        },
+        {
+          "id": "cupboard.json",
+          "name": "cupboard.json",
+          "type": "File",
+          "artifact": {
+            "size": 1090,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/cupboard.json",
+            "MD5": "7725e2ad17f08b6221f0ecdeda137888",
+            "path": "config/cupboard.json"
+          }
+        },
+        {
+          "id": "dynamic_fps.json",
+          "name": "dynamic_fps.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/dynamic_fps.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/dynamic_fps.json"
+          }
+        },
+        {
+          "id": "embeddium-fingerprint.json",
+          "name": "embeddium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/embeddium-fingerprint.json",
+            "MD5": "93e83b56a6799d1de582f5e758e2b7d9",
+            "path": "config/embeddium-fingerprint.json"
+          }
+        },
+        {
+          "id": "embeddium-mixins.properties",
+          "name": "embeddium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 269,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/embeddium-mixins.properties",
+            "MD5": "a9176524f816153a7967217b53bb75a1",
+            "path": "config/embeddium-mixins.properties"
+          }
+        },
+        {
+          "id": "embeddium-options.json",
+          "name": "embeddium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 852,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/embeddium-options.json",
+            "MD5": "c0a96a9199ece4278654cf6e1fb2584c",
+            "path": "config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "emotecraft.json",
+          "name": "emotecraft.json",
+          "type": "File",
+          "artifact": {
+            "size": 647,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/emotecraft.json",
+            "MD5": "69f239dffd22a7ad53e6bbc3da08f50d",
+            "path": "config/emotecraft.json"
+          }
+        },
+        {
+          "id": "emotecraft_emote_map.json",
+          "name": "emotecraft_emote_map.json",
+          "type": "File",
+          "artifact": {
+            "size": 117,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/emotecraft_emote_map.json",
+            "MD5": "fdcffe9e7eaa4949ee1d33d613a7c2eb",
+            "path": "config/emotecraft_emote_map.json"
+          }
+        },
+        {
+          "id": "fallingtree.json",
+          "name": "fallingtree.json",
+          "type": "File",
+          "artifact": {
+            "size": 1273,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/fallingtree.json",
+            "MD5": "feca038528649357462c22147260347a",
+            "path": "config/fallingtree.json"
+          }
+        },
+        {
+          "id": "farmersdelight-client.toml",
+          "name": "farmersdelight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/farmersdelight-client.toml",
+            "MD5": "b00b8b023174e9f208b0a7649c87ad7b",
+            "path": "config/farmersdelight-client.toml"
+          }
+        },
+        {
+          "id": "farmersdelight-common.toml",
+          "name": "farmersdelight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4540,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/farmersdelight-common.toml",
+            "MD5": "82ba75bba9643dc70a6f985a6a4396da",
+            "path": "config/farmersdelight-common.toml"
+          }
+        },
+        {
+          "id": "farsight.json",
+          "name": "farsight.json",
+          "type": "File",
+          "artifact": {
+            "size": 120,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/farsight.json",
+            "MD5": "6890a1825bb1529a13650cd17409b8b6",
+            "path": "config/farsight.json"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1148,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/fml.toml",
+            "MD5": "783d5f5e55fc91951e5e234d72980761",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1628,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/forge-client.toml",
+            "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "the-graveyard-3.0-config.json5",
+          "name": "the-graveyard-3.0-config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 5084,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/graveyard/the-graveyard-3.0-config.json5",
+            "MD5": "ab5b9682a4883f3cec8fb179e2dc87b1",
+            "path": "config/graveyard/the-graveyard-3.0-config.json5"
+          }
+        },
+        {
+          "id": "holdmyitems-client.toml",
+          "name": "holdmyitems-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2922,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/holdmyitems-client.toml",
+            "MD5": "4c6993ee6f8b1661c07d444dda774216",
+            "path": "config/holdmyitems-client.toml"
+          }
+        },
+        {
+          "id": "immediatelyfast.json",
+          "name": "immediatelyfast.json",
+          "type": "File",
+          "artifact": {
+            "size": 1060,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/immediatelyfast.json",
+            "MD5": "7b2d05a9b2f2745055edf3c8d1d0b155",
+            "path": "config/immediatelyfast.json"
+          }
+        },
+        {
+          "id": "inventory_particles.json5",
+          "name": "inventory_particles.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1060,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/inventory_particles.json5",
+            "MD5": "41fce9181f2c64e56b12c0bad8890073",
+            "path": "config/inventory_particles.json5"
+          }
+        },
+        {
+          "id": "hide-blocks.json",
+          "name": "hide-blocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 191,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/jade/hide-blocks.json",
+            "MD5": "da56a1383649dd1ebbbf41d9cfddb0da",
+            "path": "config/jade/hide-blocks.json"
+          }
+        },
+        {
+          "id": "hide-entities.json",
+          "name": "hide-entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 325,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/jade/hide-entities.json",
+            "MD5": "7b674db14cfdc978fa9786641eec8df6",
+            "path": "config/jade/hide-entities.json"
+          }
+        },
+        {
+          "id": "jade.json",
+          "name": "jade.json",
+          "type": "File",
+          "artifact": {
+            "size": 974,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/jade/jade.json",
+            "MD5": "bfdbc8df70932e88399bd6c039163be0",
+            "path": "config/jade/jade.json"
+          }
+        },
+        {
+          "id": "plugins.json",
+          "name": "plugins.json",
+          "type": "File",
+          "artifact": {
+            "size": 1777,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/jade/plugins.json",
+            "MD5": "ef4505e3dceb4c3be3d8484242e80567",
+            "path": "config/jade/plugins.json"
+          }
+        },
+        {
+          "id": "sort-order.json",
+          "name": "sort-order.json",
+          "type": "File",
+          "artifact": {
+            "size": 1588,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/jade/sort-order.json",
+            "MD5": "97c8e4e888e72f32ab9642d5f917b798",
+            "path": "config/jade/sort-order.json"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 7991,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/jei/jei-client.ini",
+            "MD5": "81c1f04ca66332819d0805e5323f3e4a",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1338,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/jei/jei-colors.ini",
+            "MD5": "54322062602d3aabb6b11455e07de765",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 918,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/jei/jei-debug.ini",
+            "MD5": "4dd10e2f07441d4820fe65e804aac24c",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 463,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "457dca8722dc66e695196c24fba7875f",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "koreanpatch.json5",
+          "name": "koreanpatch.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1513,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/koreanpatch.json5",
+            "MD5": "db57d63145cae2aa9d67e8b160151008",
+            "path": "config/koreanpatch.json5"
+          }
+        },
+        {
+          "id": "marvelous_menagerie.toml",
+          "name": "marvelous_menagerie.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1433,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/marvelous_menagerie.toml",
+            "MD5": "a4d82707bb60ea7c8b26b21210fff291",
+            "path": "config/marvelous_menagerie.toml"
+          }
+        },
+        {
+          "id": "obscure_tooltips-client.toml",
+          "name": "obscure_tooltips-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1312,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/obscuria/obscure_tooltips-client.toml",
+            "MD5": "5c7a497092c0d4a6b2b338473d71b1b4",
+            "path": "config/obscuria/obscure_tooltips-client.toml"
+          }
+        },
+        {
+          "id": "oculus.properties",
+          "name": "oculus.properties",
+          "type": "File",
+          "artifact": {
+            "size": 254,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/oculus.properties",
+            "MD5": "0fb6781780013effc2dc45c15bf144a4",
+            "path": "config/oculus.properties"
+          }
+        },
+        {
+          "id": "patchouli-client.toml",
+          "name": "patchouli-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1091,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/patchouli-client.toml",
+            "MD5": "8abc03f47eb092528e4d5bda3e2ff172",
+            "path": "config/patchouli-client.toml"
+          }
+        },
+        {
+          "id": "refurbished_furniture.client.toml",
+          "name": "refurbished_furniture.client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1177,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/refurbished_furniture.client.toml",
+            "MD5": "a7d501b01aa3872906be4cee7185e668",
+            "path": "config/refurbished_furniture.client.toml"
+          }
+        },
+        {
+          "id": "saturn-optimizations.toml",
+          "name": "saturn-optimizations.toml",
+          "type": "File",
+          "artifact": {
+            "size": 445,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/saturn-optimizations.toml",
+            "MD5": "3a1e6e595475f3fedd3a9a6307c8ec84",
+            "path": "config/saturn-optimizations.toml"
+          }
+        },
+        {
+          "id": "smoothboot.json",
+          "name": "smoothboot.json",
+          "type": "File",
+          "artifact": {
+            "size": 198,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/smoothboot.json",
+            "MD5": "70ffc7bd8c3159c1675727386fcea810",
+            "path": "config/smoothboot.json"
+          }
+        },
+        {
+          "id": "tameable-beasts-common.toml",
+          "name": "tameable-beasts-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2416,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/tameable-beasts-common.toml",
+            "MD5": "30afb9e677af2eeefc610cb57a744b06",
+            "path": "config/tameable-beasts-common.toml"
+          }
+        },
+        {
+          "id": "terrablender.toml",
+          "name": "terrablender.toml",
+          "type": "File",
+          "artifact": {
+            "size": 552,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/terrablender.toml",
+            "MD5": "1763bac9f3719c03860c25aeba872b0b",
+            "path": "config/terrablender.toml"
+          }
+        },
+        {
+          "id": "twilightforest-client.toml",
+          "name": "twilightforest-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1565,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/twilightforest-client.toml",
+            "MD5": "a979447ba0277e1c05fbb684cc812669",
+            "path": "config/twilightforest-client.toml"
+          }
+        },
+        {
+          "id": "twilightforest-common.toml",
+          "name": "twilightforest-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7758,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/twilightforest-common.toml",
+            "MD5": "1d2554a6c1a11ecf1bc56cbbc015c266",
+            "path": "config/twilightforest-common.toml"
+          }
+        },
+        {
+          "id": "TwilightForestFinalBoss-common.toml",
+          "name": "TwilightForestFinalBoss-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2141,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/TwilightForestFinalBoss-common.toml",
+            "MD5": "c3e135dc0b6de8207390a51987f586a7",
+            "path": "config/TwilightForestFinalBoss-common.toml"
+          }
+        },
+        {
+          "id": "category-volumes.properties",
+          "name": "category-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 46,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/voicechat/category-volumes.properties",
+            "MD5": "47731f53ffef4a8a57c766a8091a5651",
+            "path": "config/voicechat/category-volumes.properties"
+          }
+        },
+        {
+          "id": "player-volumes.properties",
+          "name": "player-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/voicechat/player-volumes.properties",
+            "MD5": "881435f0ba9a0f1af1d2082d1298dcc4",
+            "path": "config/voicechat/player-volumes.properties"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/voicechat/translations.properties",
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4898,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "0179c75398ee92e8ea4a9ad36f4109b7",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2441,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "db56495d1622642c5b862596d6cfdf62",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.toml",
+          "name": "voicechat-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/config/voicechat-client.toml",
+            "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
+            "path": "config/voicechat-client.toml"
+          }
+        },
+        {
+          "id": "ambientadditions-1.20.1-1.1.2.jar",
+          "name": "ambientadditions-1.20.1-1.1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1424125,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/mods/ambientadditions-1.20.1-1.1.2.jar",
+            "MD5": "8fa39deabd3f820d279b6e9c368c208f",
+            "path": "mods/ambientadditions-1.20.1-1.1.2.jar"
+          }
+        },
+        {
+          "id": "Aquaculture-1.20.1-2.5.7.jar",
+          "name": "Aquaculture-1.20.1-2.5.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 565143,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/mods/Aquaculture-1.20.1-2.5.7.jar",
+            "MD5": "13f0b652a1c8fa2693f819509686107b",
+            "path": "mods/Aquaculture-1.20.1-2.5.7.jar"
+          }
+        },
+        {
+          "id": "armourersworkshop-forge-1.20.1-2.1.4.jar",
+          "name": "armourersworkshop-forge-1.20.1-2.1.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3482881,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/mods/armourersworkshop-forge-1.20.1-2.1.4.jar",
+            "MD5": "8adf0c20579945d8901f29c8d919fcf1",
+            "path": "mods/armourersworkshop-forge-1.20.1-2.1.4.jar"
+          }
+        },
+        {
+          "id": "automobility-0.4.2+1.20.1-forge.jar",
+          "name": "automobility-0.4.2+1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1013099,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/mods/automobility-0.4.2+1.20.1-forge.jar",
+            "MD5": "ad0cf0b35bbd5504c38124bf8514da88",
+            "path": "mods/automobility-0.4.2+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "marvelous_menagerie-0.3-BETA.jar",
+          "name": "marvelous_menagerie-0.3-BETA.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8200557,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/mods/marvelous_menagerie-0.3-BETA.jar",
+            "MD5": "2863656f8d1e36c346548e106a67434f",
+            "path": "mods/marvelous_menagerie-0.3-BETA.jar"
+          }
+        },
+        {
+          "id": "tabnametag-forge-1.0.0.jar",
+          "name": "tabnametag-forge-1.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4930,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/mods/tabnametag-forge-1.0.0.jar",
+            "MD5": "2b55a9453f65d3405397d3343aa3adcf",
+            "path": "mods/tabnametag-forge-1.0.0.jar"
+          }
+        },
+        {
+          "id": "tameablebeasts-1.20.1-7.1.3.jar",
+          "name": "tameablebeasts-1.20.1-7.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1817881,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/mods/tameablebeasts-1.20.1-7.1.3.jar",
+            "MD5": "cddafa6fede74ae3be96c6ed551a2723",
+            "path": "mods/tameablebeasts-1.20.1-7.1.3.jar"
+          }
+        },
+        {
+          "id": "voicechat-forge-1.20.1-2.6.6.jar",
+          "name": "voicechat-forge-1.20.1-2.6.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4889296,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/mods/voicechat-forge-1.20.1-2.6.6.jar",
+            "MD5": "70b067110a47fec86036fdc076c39803",
+            "path": "mods/voicechat-forge-1.20.1-2.6.6.jar"
+          }
+        },
+        {
+          "id": "Faithful 64x - Beta 9.zip",
+          "name": "Faithful 64x - Beta 9.zip",
+          "type": "File",
+          "artifact": {
+            "size": 9608212,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/resourcepacks/Faithful%2064x%20-%20Beta%209.zip",
+            "MD5": "7f80ce636292401377da62ebf2b59ac4",
+            "path": "resourcepacks/Faithful 64x - Beta 9.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.1.1.zip",
+          "name": "ComplementaryReimagined_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409956,
+            "url": "https://hanol0927.github.io/yobe/servers/yobe-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.1.1.zip",
+            "MD5": "36b4136593cac57d2f9aa651603b6e0f",
+            "path": "shaderpacks/ComplementaryReimagined_r5.1.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
